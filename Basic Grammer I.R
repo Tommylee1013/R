@@ -16,3 +16,16 @@ y <- 10 * 10 # 화살표를 이용해 초기화를 하는 경우가 많다
 print(y)
 1 + 3 -> z # 역방향 초기화도 가능하다
 print(z)
+
+#Data Type
+v = TRUE
+print(typeof(v)) # logical
+print(class(TRUE))
+print(class(FALSE))
+print(class(T))
+print(class(F))
+print(class(12.3)) # numeric
+print(class(12) # numeric
+print(class(12L)) # integer
+print(class('a')) # character
+print(class('23.4')) # character
